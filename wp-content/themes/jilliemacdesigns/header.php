@@ -35,15 +35,16 @@
 		</div><!-- .site-branding -->
 		
 		<nav class="main-navigation">
-		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'jilliemacdesigns' ); ?></button>
+		<button class="menu-toggle" aria-controls="main-menu" aria-expanded="false"><?php esc_html_e( 'Main Menu', 'jilliemacdesigns' ); ?></button>
 			<?php
 			wp_nav_menu(
 				array(
 					'container'         => false,
-					'theme_location' => 'primary-menu',
-					'menu_class'        => 'primary-menu',
+					'theme_location' => 'main-menu',
+					'menu_class'        => 'main-menu',
+					'depth'					 => 1
 				)
 			);
 			?>
 		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+	</header>

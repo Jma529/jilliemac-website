@@ -47,10 +47,10 @@ if ( ! function_exists( 'jilliemacdesigns_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
-		// This theme uses wp_nav_menu() in one location.
+		// Register Navigation Menus
 		register_nav_menus(
 			array(
-				'Primary Menu' => esc_html__( 'Primary Menu', 'jilliemacdesigns' ),
+				'Main Menu' => esc_html__( 'Main Menu', 'jilliemacdesigns' ),
 				'Footer Menu' => esc_html__( 'Footer Menu', 'jilliemacdesigns' ),
 			)
 		);
@@ -156,6 +156,11 @@ function jilliemacdesigns_scripts() {
 add_action( 'wp_enqueue_scripts', 'jilliemacdesigns_scripts' );
 
 /**
+* Register Custom Post Types
+ */
+require get_template_directory() . '/cpt/cpt-projects.php';
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
@@ -181,4 +186,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
