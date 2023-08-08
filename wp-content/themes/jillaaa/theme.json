@@ -1285,6 +1285,16 @@
           "name": "Ui-monospace",
           "slug": "mono",
           "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+        },
+        {
+          "name": "Ostrich Sans Heavy",
+          "slug": "header",
+          "fontFamily": "Ostrich Sans Heavy"
+        },
+        {
+          "name": "Titillium",
+          "slug": "body",
+          "fontFamily": "titillium"
         }
       ],
       "fontSizes": [

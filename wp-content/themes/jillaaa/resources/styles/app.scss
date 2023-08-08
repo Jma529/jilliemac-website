@@ -2,6 +2,61 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* fonts */
+@font-face {
+  font-family: 'Ostrich Sans Heavy';
+  src: url('/fonts/ostrich/OstrichSans-Heavy.woff2') format('woff2'),
+      url('/fonts/ostrich/OstrichSans-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'titillium';
+  src: url('../fonts/titillium/Titillium-Light.woff2') format('woff2'),
+       url('../fonts/titillium/Titillium-Light.woff') format('woff');
+  font-style: normal;
+}
+
+
+/* Typography */
+
+body {
+  @apply font-body;
+}
+
+h1, .h1 {
+  font-size: 4.236rem;
+  @apply font-header;
+  font-weight: 900;
+
+  @media (min-width: theme('screens.lg')) { 
+    font-size: 12vw;
+  }
+}
+
+h2, .h2 {
+  font-size: 2.618rem;
+  @apply font-header;
+  font-weight: 900;
+
+  @media (min-width: theme('screens.lg')) { 
+    font-size: 4.732vw;
+  }
+}
+
+h3, .h3 {
+  font-size: 1.618rem;
+  @apply font-body;
+  @apply leading-none;
+
+  @media (min-width: theme('screens.lg')) { 
+    font-size: 1.82vw;
+  }
+}
+
+
 
 .scroll-button {
   display: none;
@@ -28,6 +83,7 @@
       border-bottom: 3px solid white;
       transform: rotate(-45deg);
       box-sizing: border-box;
+      animation: scroll 2s infinite;
 
       &:nth-of-type(1) {
         top: 0;
@@ -72,4 +128,38 @@
   }
 }
 
+/* Timeline */
+
+.timeline {
+  &::before {
+    display: none;
+
+    @media (min-width: theme('screens.lg')) { 
+      display: block;
+      content: '';
+      background: black;
+      width: 2px;
+      height: 95%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .timeline-img {
+    display: none;
+
+    @media (min-width: theme('screens.lg')) { 
+      display: block;
+      width: 30px;
+      height: 30px;
+      background: black;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      margin-top: 25px;
+      margin-left: -15px;
+    }
+  }
+}
 
