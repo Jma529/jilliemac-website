@@ -1,23 +1,77 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import "hamburgers/_sass/hamburgers";
+
+/* Base */
+
+html {
+  -webkit-font-smoothing: antialiased
+}
 
 /* fonts */
+
+// Token 7
+
 @font-face {
-  font-family: 'Ostrich Sans Heavy';
-  src: url('/fonts/ostrich/OstrichSans-Heavy.woff2') format('woff2'),
-      url('/fonts/ostrich/OstrichSans-Heavy.woff') format('woff');
-  font-weight: 900;
+  font-family: " 'Token 7' ";
+  src: url('/fonts/Token/Token7-Regular.woff2') format('woff2'),
+      url('/fonts/Token/Token7-Regular.woff') format('woff'),
+      url('/fonts/Token/Token7-Regular.ttf') format ('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: " 'Token 7' ";
+  src: url('/fonts/Token/Token7-Italic.woff2') format('woff2'),
+      url('/fonts/Token/Token7-Italic.woff') format('woff'),
+      url('/fonts/Token/Token7-Italic.ttf') format ('ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// Token Sans 7
+
+@font-face {
+  font-family: "'Token Sans 7' ";
+  src: url('/fonts/TokenSans/TokenSans7-Regular.woff2') format('woff2'),
+      url('/fonts/TokenSans/TokenSans7-Regular.woff') format('woff'),
+      url('/fonts/TokenSans/TokenSans7-Regular.ttf') format ('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "'Token Sans 7' ";
+  src: url('/fonts/TokenSans/TokenSans7-Medium.woff2') format('woff2'),
+      url('/fonts/TokenSans/TokenSans7-Medium.woff') format('woff'),
+      url('/fonts/TokenSans/TokenSans7-Medium.ttf') format ('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "'Token Sans 7' ";
+  src: url('/fonts/TokenSans/TokenSans7-Bold.woff2') format('woff2'),
+      url('/fonts/TokenSans/TokenSans7-Bold.woff') format('woff'),
+      url('/fonts/TokenSans/TokenSans7-Bold.ttf') format ('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "'Token Sans 7' ";
+  src: url('/fonts/TokenSans/TokenSans7-Light.woff2') format('woff2'),
+      url('/fonts/TokenSans/TokenSans7-Light.woff') format('woff'),
+      url('/fonts/TokenSans/TokenSans7-Light.ttf') format ('ttf');
+  font-weight: 300;
   font-style: normal;
 }
 
 
-@font-face {
-  font-family: 'titillium';
-  src: url('../fonts/titillium/Titillium-Light.woff2') format('woff2'),
-       url('../fonts/titillium/Titillium-Light.woff') format('woff');
-  font-style: normal;
-}
+
+
 
 
 /* Typography */
@@ -29,20 +83,21 @@ body {
 h1, .h1 {
   font-size: 4.236rem;
   @apply font-header;
-  font-weight: 900;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
 
   @media (min-width: theme('screens.lg')) { 
-    font-size: 12vw;
+    font-size: 8vw;
   }
 }
 
 h2, .h2 {
   font-size: 2.618rem;
-  @apply font-header;
-  font-weight: 900;
+  @apply font-body;
+  font-weight: normal;
 
   @media (min-width: theme('screens.lg')) { 
-    font-size: 4.732vw;
+    font-size: 4.17vw;
   }
 }
 

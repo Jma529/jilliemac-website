@@ -17,6 +17,7 @@ wp-content/*
 # wp-content/mu-plugins/*
 # wp-content/plugins/*
 wp-content/themes/*
+wp-content/themes/jillaaa/fonts
 
 # ignore all files starting with . or ~
 .*

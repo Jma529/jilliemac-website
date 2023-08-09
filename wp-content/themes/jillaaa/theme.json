@@ -1287,14 +1287,14 @@
           "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
         },
         {
-          "name": "Ostrich Sans Heavy",
+          "name": "'Token 7'",
           "slug": "header",
-          "fontFamily": "Ostrich Sans Heavy"
+          "fontFamily": "'Token 7'"
         },
         {
-          "name": "Titillium",
+          "name": "'Token Sans 7'",
           "slug": "body",
-          "fontFamily": "titillium"
+          "fontFamily": "'Token Sans 7'"
         }
       ],
       "fontSizes": [

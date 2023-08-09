@@ -16,8 +16,8 @@ const config = {
 
       },
       fontFamily: {
-        'header': 'Ostrich Sans Heavy',
-        'body': 'titillium',
+        'header': "'Token 7'",
+        'body': "'Token Sans 7'",
       },
     },
   },
