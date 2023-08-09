@@ -1,6 +1,5 @@
-/** @type {import('tailwindcss').Config} config */
-const config = {
-  content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}'],
+module.exports = {
+  content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}', './src/**/*.{html,js}' ],
   theme: {
     extend: {
       colors: {
@@ -19,9 +18,7 @@ const config = {
         'header': "'Token 7'",
         'body': "'Token Sans 7'",
       },
-    },
+    },  
   },
   plugins: [],
 };
-
-export default config;
