@@ -205,14 +205,18 @@ h3, .h3 {
 //Hamburger 
 
 .hamburger {
-.hamburger-inner {
-  width: 50px;
-  height: 3px;
-  background-color: #ffffff;
-  display: block;
-  margin: 10px auto;
-  transition: all 0.3s ease-in-out;
-}
+  position: fixed;
+  top: 5vh;
+  right: 8vw;
+
+  .hamburger-inner {
+    width: 50px;
+    height: 3px;
+    background-color: #ffffff;
+    display: block;
+    margin: 10px auto;
+    transition: all 0.3s ease-in-out;
+  }
 
   &.is-active {
     .hamburger-inner {
