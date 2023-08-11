@@ -271,5 +271,18 @@ h3, .h3 {
       margin-left: -15px;
     }
   }
+
+  .timeline-content {
+
+    @media (min-width: theme('screens.lg')) { 
+      max-width: 40vw;
+    }
+    
+    &:nth-child(even) {
+      @media (min-width: theme('screens.lg')) { 
+        @apply ml-12;
+      }
+    }
+  }
 }
 

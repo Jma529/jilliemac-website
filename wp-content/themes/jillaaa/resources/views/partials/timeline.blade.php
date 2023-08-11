@@ -11,24 +11,18 @@
               fill="#1A3E45" />
           </svg>
         </div>
-        <div class="js--fadeInLeft">
-          <h3>Full Stack Web Development Certificate</h3>
-          <p>Codemaster Institute, Perth</p>
-          <p>March-June 2019</p>
-          <p>A 12-week full-time intensive course covering front and backend topics including: </p>
-          <ul class="bullet-list">
-            <li>HTML/CSS</li>
-            <li>Sass</li>
-            <li>Bootstrap</li>
-            <li>JavaScript</li>
-            <li>Jquery</li>
-            <li>PHP</li>
-            <li>dotnet</li>
-            <li>Wordpress</li>
-            <li>Drupal</li>
-            <li>Github</li>
-            <li>Node</li>
-            <li>Team Project</li>
+        <div class="js--fadeInLeft lg:max-w-[35vw]">
+          <div class="flex flex-col gap-2 mb-4">
+            <h3>Wordpress Web Developer & Designer</h3>
+            <p class="text-lg leading-none">Freelance & Whitelabel | Remote</p>
+            <p class="italic font-medium">Jan 2018 - present</p>
+          </div>
+          <ul class="list-disc">
+            <li>Design and build user-friendly, responsive, and accessible websites from start to launch. </li>
+            <li>Stay up to date with latest trends and technologies by using several different frameworks including WordPress, Shopify, Webflow, React, and Laravel.</li>
+            <li>Demonstrate knowledge of digital development process by developing locally and migrating to staging and production using FTP for file transfers and Sequel Pro for database management and migrations
+            </li>
+            <li>Assist digital agency with quick turn-around(less than 30 days) site builds using sage roots wp starter theme, blade, and tailwindCSS, yarn, and git branch workflow</li>
           </ul>
         </div>
       </div>
@@ -44,24 +38,22 @@
           </svg>
 
         </div>
-        <div class="js--fadeInLeft">
-          <h3>Full Stack Web Development Certificate</h3>
-          <p>Codemaster Institute, Perth</p>
-          <p>March-June 2019</p>
-          <p>A 12-week full-time intensive course covering front and backend topics including: </p>
-          <ul class="bullet-list">
-            <li>HTML/CSS</li>
-            <li>Sass</li>
-            <li>Bootstrap</li>
-            <li>JavaScript</li>
-            <li>Jquery</li>
-            <li>PHP</li>
-            <li>dotnet</li>
-            <li>Wordpress</li>
-            <li>Drupal</li>
-            <li>Github</li>
-            <li>Node</li>
-            <li>Team Project</li>
+        <div class="js--fadeInRight lg:max-w-[35vw]">
+          <div class="flex flex-col gap-2 mb-4">
+            <h3>Front End Developer & UX Designer</h3>
+            <p class="text-lg leading-none">Powerledger | Perth/Remote</p>
+            <p class="italic font-medium">November 2019 - present</p>
+          </div>
+          <ul class="list-disc">
+            <li>Manage company website — responsibilities include: website page modifications and additions, publishing posts, and finding further ways to improve website and UX</li>
+            <li>Work with the business development, marketing, and product team to create digital and print assets including reports, icons, and diagrams demonstrating proficiency in Adobe Creative Suite and Figma</li>
+            <li>Participate in daily and weekly stand ups to offer and receive feedback on current projects
+            </li>
+            <li>Work in sprints using a git workflow and JIRA to manage and achieve deadlines</li>
+            <li>Problem solve to design UI and further improve UX for trading software</li>
+            <li>Lead project management and build of new website using Webflow demonstrating skills in HTML, CSS, and animations.</li>
+            <li>Use problem solving skills to design features and improvements for energy trading software UI</li>
+            <li>Create tutorials for oversees employees on how to update the company website on Webflow</li>
           </ul>
         </div>
       </div>
@@ -78,11 +70,13 @@
             </svg>
           </div>
           <div class="js--fadeInLeft">
-            <h3>Full Stack Web Development Certificate</h3>
-            <p>Codemaster Institute, Perth</p>
-            <p>March-June 2019</p>
+            <div class="flex flex-col gap-2 mb-4">
+              <h3>Full Stack Web Development Certificate</h3>
+              <p class="text-lg leading-none">Codemaster Institute, Perth</p>
+              <p class="italic font-medium">March-June 2019</p>
+            </div>
             <p>A 12-week full-time intensive course covering front and backend topics including: </p>
-            <ul class="bullet-list">
+            <ul class="list-disc">
               <li>HTML/CSS</li>
               <li>Sass</li>
               <li>Bootstrap</li>
