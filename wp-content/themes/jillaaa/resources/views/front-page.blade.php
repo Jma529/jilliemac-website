@@ -3,3 +3,4 @@
 
 @include('partials.intro')
 @include('partials.timeline')
+@include('partials.portfolio')

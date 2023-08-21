@@ -258,59 +258,9 @@
           "slug": "neutral-950"
         },
         {
-          "color": "#fafaf9",
-          "name": "Stone 50",
-          "slug": "stone-50"
-        },
-        {
-          "color": "#f5f5f4",
-          "name": "Stone 100",
-          "slug": "stone-100"
-        },
-        {
-          "color": "#e7e5e4",
-          "name": "Stone 200",
-          "slug": "stone-200"
-        },
-        {
-          "color": "#d6d3d1",
-          "name": "Stone 300",
-          "slug": "stone-300"
-        },
-        {
-          "color": "#a8a29e",
-          "name": "Stone 400",
-          "slug": "stone-400"
-        },
-        {
-          "color": "#78716c",
-          "name": "Stone 500",
-          "slug": "stone-500"
-        },
-        {
-          "color": "#57534e",
-          "name": "Stone 600",
-          "slug": "stone-600"
-        },
-        {
-          "color": "#44403c",
-          "name": "Stone 700",
-          "slug": "stone-700"
-        },
-        {
-          "color": "#292524",
-          "name": "Stone 800",
-          "slug": "stone-800"
-        },
-        {
-          "color": "#1c1917",
-          "name": "Stone 900",
-          "slug": "stone-900"
-        },
-        {
-          "color": "#0c0a09",
-          "name": "Stone 950",
-          "slug": "stone-950"
+          "color": "#d9d9d9",
+          "name": "Stone",
+          "slug": "stone"
         },
         {
           "color": "#fef2f2",
@@ -1246,6 +1196,16 @@
           "color": "#4c0519",
           "name": "Rose 950",
           "slug": "rose-950"
+        },
+        {
+          "color": "#1a3e45",
+          "name": "Forest",
+          "slug": "forest"
+        },
+        {
+          "color": "#242424",
+          "name": "Charcoal",
+          "slug": "charcoal"
         }
       ]
     },

@@ -3,6 +3,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'forest': '#1A3E45',
+        'charcoal': '#242424',
+        'stone': '#D9D9D9',
 
       }, // Extend Tailwind's default colors
       spacing: {
