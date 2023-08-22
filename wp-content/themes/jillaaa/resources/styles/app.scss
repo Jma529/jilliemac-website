@@ -187,7 +187,7 @@ h3, .h3 {
 
 .menu {
   display: none;
-  position: absolute;
+  position: fixed;
   top: -5vh;
   @apply bg-white;
   opacity: 0;
