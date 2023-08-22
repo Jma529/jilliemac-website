@@ -10,7 +10,6 @@ wp-admin/*
 # mu-plugins, plugins, and themes directories
 wp-content/*
 !wp-content/themes/
-!wp-content/uploads
 
 # ignore all mu-plugins, plugins, and themes
 # unless explicitly whitelisted at the end of this file
