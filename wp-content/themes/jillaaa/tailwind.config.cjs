@@ -6,6 +6,8 @@ module.exports = {
         'forest': '#1A3E45',
         'charcoal': '#242424',
         'stone': '#D9D9D9',
+        'seafoam': '#9DD0CB',
+        'sunshine': '#FCBF49',
 
       }, // Extend Tailwind's default colors
       spacing: {

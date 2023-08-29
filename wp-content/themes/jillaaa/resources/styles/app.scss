@@ -188,11 +188,11 @@ h3, .h3 {
 .menu {
   display: none;
   position: fixed;
-  top: -5vh;
+  margin-top: -5vh;
   @apply bg-white;
   opacity: 0;
   @apply w-full;
-  @apply h-screen;
+  height: 100vh;
   transition: opacity 5s ease-in;
 
   &.menu-active {
@@ -208,11 +208,12 @@ h3, .h3 {
   position: fixed;
   top: 5vh;
   right: 8vw;
+  mix-blend-mode: difference;
 
   .hamburger-inner {
     width: 50px;
     height: 3px;
-    background-color: #ffffff;
+    background: #ffffff;
     display: block;
     margin: 10px auto;
     transition: all 0.3s ease-in-out;
@@ -227,12 +228,10 @@ h3, .h3 {
 
       &:nth-child(1) {
         transform: translateY(13px) rotate(45deg);
-        background-color: #000;
       }
       
       &:nth-child(3) {
         transform: translateY(-13px) rotate(-45deg);
-        background-color: #000;
       }
     }
   }

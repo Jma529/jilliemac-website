@@ -1206,6 +1206,16 @@
           "color": "#242424",
           "name": "Charcoal",
           "slug": "charcoal"
+        },
+        {
+          "color": "#9dd0cb",
+          "name": "Seafoam",
+          "slug": "seafoam"
+        },
+        {
+          "color": "#fcbf49",
+          "name": "Sunshine",
+          "slug": "sunshine"
         }
       ]
     },

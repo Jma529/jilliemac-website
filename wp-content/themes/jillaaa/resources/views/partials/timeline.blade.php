@@ -1,4 +1,4 @@
-<section class="lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm" id="experience">
+<section class="lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm bg-stone" id="experience">
   <h2 class="mb-40">Education & Experience</h2>
   <div class="timeline relative flex flex-col lg:grid lg:grid-cols-2 grid-flow-row w-full" id="timeline">
     <div class="timeline-item flex flex-col col-start-1 col-span-2">
@@ -205,9 +205,8 @@
           <div class="flex flex-col gap-2 mb-4">
             <h3>Bachelor of Environmental Design</h3>
             <p class="text-lg leading-none">University of Colorado | Boulder, Coloardo, USA</p>
-            <p class="italic font-medium">Sep 2005 - May 2009</p>
           </div>
-          <ul class="list-disc">
+          <ul>
             <li>4-year bachelor's degree program focused on digital design and architecture</li>
           </ul>
         </div>
