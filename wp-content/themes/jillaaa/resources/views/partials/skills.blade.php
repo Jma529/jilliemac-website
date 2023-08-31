@@ -1,6 +1,6 @@
-<section class="grid grid-cols-2 gap-8 bg-charcoal lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm">
-  <div class="col-start-1 col-span-1 text-stone animation">
-    <h2 class="font-header text-stone">Skills</h2>
+<section class="lg:grid flex flex-col lg:grid-cols-2 gap-8 bg-charcoal lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm">
+  <div class="lg:col-start-1 lg:col-span-1 text-stone animation">
+    <h2 class="font-header mb-8 text-stone">Skills</h2>
     <div class="box lg">
       <span>HTML</span>
     </div>
@@ -47,7 +47,7 @@
       <span>After Coffee</span>
     </div>
   </div>
-  <div class="col-start-2 col-span-1 skill-box text-stone">
+  <div class="lg:col-start-2 lg:col-span-1 skill-box text-stone">
     <h2 class="font-header text-stone">Hobbies</h2>
     <ul>
       <li>Yoga</li>

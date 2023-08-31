@@ -1,5 +1,5 @@
 <section class="lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm bg-stone" id="experience">
-  <h2 class="mb-40 font-header">Education & Experience</h2>
+  <h2 class="mb-8 font-header">Education & Experience</h2>
   <div class="timeline relative flex flex-col lg:grid lg:grid-cols-2 grid-flow-row w-full" id="timeline">
     <div class="timeline-item flex flex-col col-start-1 col-span-2">
       <div class="timeline-img"></div>
@@ -11,7 +11,7 @@
               fill="#1A3E45" />
           </svg>
         </div>
-        <div class="js--fadeInLeft lg:max-w-[35vw]">
+        <div class="slide-in left lg:max-w-[35vw]">
           <div class="flex flex-col gap-2 mb-4">
             <h3>White-label Web Developer</h3>
             <p class="text-lg leading-none">Contract | Remote</p>
@@ -36,7 +36,7 @@
               fill="#1A3E45" />
           </svg>
         </div>
-        <div class="js--fadeInRight lg:max-w-[35vw]">
+        <div class="slide-in right lg:max-w-[35vw]">
           <div class="flex flex-col gap-2 mb-4">
             <h3>Web Developer & Designer</h3>
             <p class="text-lg leading-none">Freelance | Remote</p>
@@ -62,7 +62,7 @@
               fill="#1A3E45" />
           </svg>
         </div>
-        <div class="js--fadeInLeft lg:max-w-[35vw]">
+        <div class="slide-in left lg:max-w-[35vw]">
           <div class="flex flex-col gap-2 mb-4">
             <h3>Front End Developer & UX Designer</h3>
             <p class="text-lg leading-none">Powerledger | Perth/Remote</p>
@@ -89,7 +89,7 @@
               fill="#1A3E45" />
           </svg>
           </div>
-          <div class="js--fadeInRight lg:max-w-[35vw]">
+          <div class="slide-in right lg:max-w-[35vw]">
             <div class="flex flex-col gap-2 mb-4">
               <h3>Full Stack Web Development Certificate</h3>
               <p class="text-lg leading-none">Codemaster Institute, Perth</p>
@@ -123,7 +123,7 @@
               fill="#1A3E45" />
           </svg>
         </div>
-        <div class="js--fadeInLeft lg:max-w-[35vw]">
+        <div class="slide-in left lg:max-w-[35vw]">
           <div class="flex flex-col gap-2 mb-4">
             <h3>Studio Manager & Teacher Trainer</h3>
             <p class="text-lg leading-none">LAFit Studio | Perth, Australia</p>
@@ -150,7 +150,7 @@
                 fill="#1A3E45" />
             </svg>
         </div>
-        <div class="js--fadeInRight lg:max-w-[35vw]">
+        <div class="slide-in right lg:max-w-[35vw]">
           <div class="flex flex-col gap-2 mb-4">
             <h3>City Lead</h3>
             <p class="text-lg leading-none">Sofar Sounds | Perth, Australia | Volunteer</p>
@@ -173,7 +173,7 @@
               fill="#1A3E45" />
           </svg>
         </div>
-        <div class="js--fadeInLeft lg:max-w-[35vw]">
+        <div class="slide-in left lg:max-w-[35vw]">
           <div class="flex flex-col gap-2 mb-4">
             <h3>Customer Service & Operations Specialist</h3>
             <p class="text-lg leading-none">fitmob inc. | San Francisco, USA</p>
@@ -201,7 +201,7 @@
               fill="#1A3E45" />
           </svg>
         </div>
-        <div class="js--fadeInRight lg:max-w-[35vw]">
+        <div class="slide-in right lg:max-w-[35vw]">
           <div class="flex flex-col gap-2 mb-4">
             <h3>Bachelor of Environmental Design</h3>
             <p class="text-lg leading-none">University of Colorado | Boulder, Coloardo, USA</p>

@@ -1,8 +1,8 @@
 <section class="bg-stone lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm">
 
-  <div class="flex-col justify-start" id="contact">
+  <div class="flex flex-col justify-start" id="contact">
     <h2 class="font-header mb-8 text-charcoal">Let's Chat</h2>
-    <div class="flex-col justify-between">
+    <div class="flex flex-col justify-between gap-4">
     <div class="flex gap-2 items-center">
       <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -47,8 +47,8 @@
       <p>Github</p>
     </a>
 
-    <p><em>Eligible to work in Australia and U.S.</em></p>
-    <a class="bg-forest text-stone p-4" href="JillResumeOct2019.pdf">Download pdf resume</a>
+    <p class="italic">Eligible to work in Australia and U.S.</p>
+    <a class="bg-forest text-stone p-4 w-fit" href="JillResumeOct2019.pdf">Download pdf resume</a>
 </div>
   </div>
 </section>
