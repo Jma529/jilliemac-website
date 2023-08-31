@@ -288,24 +288,14 @@ h3, .h3 {
 // Animation
 
 .slide-in {
-  height: 400px;
   opacity:0;
-  transition:1s;
-
-  &.left {
-    transform: translateX(-110%);
-  }
-
-  &.right {
-    transform: translateX(110%);
-  }
+  transition: all .5s ease-in;
 }
 
 .slide-active {
-  opacity:1;
-   transition: transform .5s;
-  -webkit-transition: transform .5s;
-  transform: translateX(0%);
+  opacity: 1;
+   transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
 }
 
 

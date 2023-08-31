@@ -36,44 +36,21 @@ hamburger.classList.remove("is-active");
 
 // Slide in timeline items on scroll
 
-function debounce(func, wait, immediate) {
-  var timeout;
-  return function () {
-    var context = this,
-      args = arguments;
-    var later = function () {
-      timeout = null;
-      if (!immediate) func.apply(context, args);
-    };
-    var callNow = immediate && !timeout;
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-    if (callNow) func.apply(context, args);
-  };
-}
-
-const sliderItems = document.querySelectorAll(".slide-in");
-
-function checkSlide(e) {
-  // loop over timeline iteme
-
-  sliderItems.forEach((sliderItem) => {
-    //half way through Items
-    const slideInAt =
-      window.scrollY + window.innerHeight - sliderItem.height / 2;
-    // bottom of the item
-    const itemBottom = sliderItem.offsetTop + sliderItem.height;
-    // half way in the Items
-    const isHalfShown = slideInAt > sliderItem.offsetTop;
-
-    const isNoScrolledPast = window.scrollY < itemBottom;
-
-    if (isHalfShown && isNoScrolledPast) {
-      sliderItem.classList.add("slide-active");
+function reveal() {
+  var reveals = document.querySelectorAll(".slide-in");
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 100;
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("slide-active");
     } else {
-      sliderItem.classList.remove("slide-active");
+      reveals[i].classList.remove("slide-active");
     }
-  });
+  }
 }
 
-window.addEventListener("scroll", debounce(checkSlide));
+window.addEventListener("scroll", reveal);
+
+// To check the scroll position on page load
+// reveal();
