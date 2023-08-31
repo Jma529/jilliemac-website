@@ -285,3 +285,88 @@ h3, .h3 {
   }
 }
 
+/* Skills & Hobbies */
+.animation {
+  .box {
+    @apply bg-forest;
+    height: 2rem;
+    @apply m-2;
+  
+      span {
+        @apply text-stone;
+        @apply pl-2;
+      }
+    
+      &.lg {
+        width: 40vw;
+        -webkit-animation:  widthlarge 5s ease-in 2s infinite alternate;
+        animation:  widthlarge 5s ease-in 2s infinite alternate;
+  
+        @media(min-width: theme('screens.lg')) {
+          width: 30vw;
+        }
+      }
+  
+      &.md {
+        width: 30vw;
+        -webkit-animation:widthmedium 5s ease-in 2s infinite alternate;
+        animation:  widthmedium 5s ease-in 2s infinite alternate;
+  
+        @media(min-width: theme('screens.lg')) {
+          width: 25vw;
+        }
+      }
+  
+      &.sm {
+        width: 20vw;
+        -webkit-animation: widthsmall 5s ease-in 2s infinite alternate;
+        animation: widthsmall 5s ease-in 2s infinite alternate;
+  
+        @media(min-width: theme('screens.lg')) {
+          width: 20vw;
+        }
+     }
+  }
+}
+
+// Animation for skill boxes
+
+@-webkit-keyframes widthlarge {
+  from {width: 30vw;}
+  to {width: 100px;}
+}
+
+@keyframes widthlarge {
+  from {width: 30vw;}
+  to {width: 100px;}
+}
+
+@-webkit-keyframes widthmedium {
+  from {width: 25vw;}
+  to {width: 100px;}
+}
+
+@keyframes widthmedium {
+  from {width: 25vw;}
+  to {width: 100px;}
+}
+
+@-webkit-keyframes widthsmall {
+  from{width:20vw;}
+  to{width: 100px;}
+}
+
+@keyframes widthsmall {
+  from{width:20vw;}
+  to{width: 100px;}
+}
+
+.skill-box {
+  ul {
+    li {
+      &:nth-child(odd) {
+        @apply text-xl
+      }
+    }
+  }
+}
