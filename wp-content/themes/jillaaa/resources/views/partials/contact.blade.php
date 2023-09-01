@@ -1,4 +1,4 @@
-<section class="bg-stone lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm">
+<section class="bg-stone lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm" id="contact">
 
   <div class="flex flex-col justify-start" id="contact">
     <h2 class="font-header mb-8 text-charcoal">Let's Chat</h2>

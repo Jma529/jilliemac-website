@@ -1,17 +1,20 @@
 <header class="banner absolute top-0 mt-[5vh] w-full">
   <nav class="menu">
     <ul class="flex flex-col items-center justify-center w-full text-3xl gap-4">
-      <li class="menu-item flex flex-col items-center justify-center gap-4">
+      <li class="menu-item">
         <a href="#experience">Education & Experience</a>
       </li>
       <li class="menu-item">
-        <a href="#experience">Work</a>
+        <a href="#work">Work</a>
       </li>
       <li class="menu-item"> 
-        <a href="#experience">Skills & Hobbies</a>
+        <a href="#skills">Skills & Hobbies</a>
       </li>
       <li class="menu-item">
-        <a href="#experience">Contact</a>
+        <a href="#contact">Contact</a>
+      </li>
+      <li class="menu-item">
+      <a class="bg-forest text-stone p-4 w-fit" href="JillResumeOct2019.pdf">Download pdf resume</a>
       </li>
     </ul>
   </nav>

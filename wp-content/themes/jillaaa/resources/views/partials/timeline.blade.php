@@ -1,6 +1,6 @@
 <section class="lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm bg-stone" id="experience">
   <h2 class="mb-8 font-header">Education & Experience</h2>
-  <div class="timeline relative flex flex-col lg:grid lg:grid-cols-2 grid-flow-row w-full" id="timeline">
+  <div class="timeline relative flex flex-col lg:grid lg:grid-cols-2 grid-flow-row w-full">
     <div class="timeline-item flex flex-col col-start-1 col-span-2">
       <div class="timeline-img"></div>
       <div class="timeline-content flex flex-col gap-4">

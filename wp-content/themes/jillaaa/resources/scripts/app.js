@@ -15,7 +15,7 @@ if (import.meta.webpackHot) import.meta.webpackHot.accept(console.error);
 
 var hamburger = document.querySelector('.hamburger');
 var menu = document.querySelector('.menu');
-var menuItem = document.querySelector('.menu-item');
+var menuItems = document.querySelectorAll('.menu-item a');
 
 // On click
 hamburger.addEventListener("click", function() {
@@ -28,10 +28,12 @@ menu.classList.toggle("menu-active");
 
 // Close menu when menu item is clicked 
 
-menuItem.addEventListener("click", function () {
-// Remove class "is-active"
-menu.classList.remove("menu-active");
-hamburger.classList.remove("is-active");
+menuItems.forEach(function(link) {
+  link.addEventListener("click", function(event) {
+    // Remove class "is-active"
+     menu.classList.remove("menu-active");
+     hamburger.classList.remove("is-active");
+  });
 });
 
 // Slide in timeline items on scroll

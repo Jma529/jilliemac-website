@@ -68,7 +68,8 @@
 /* Base */
 
 html {
-  -webkit-font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased;
+scroll-behavior: smooth;
 }
 
 body {
@@ -289,26 +290,57 @@ h3, .h3 {
 
 .slide-in {
   opacity:0;
-  transition: all .5s ease-in;
-}
+  transition: opacity .5s ease-in;
 
-.slide-active {
+
+  &.slide-active {
   opacity: 1;
    transition: opacity .5s ease-out;
   -webkit-transition: opacity .5s ease-out;
-}
+  }
+} 
 
+.slide-active {
+
+  &.left{
+    animation: fade-left .8s ease-in;;
+  } 
+
+  &.right {
+    animation: fade-right .8s ease-in;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
 
 /* Skills & Hobbies */
 .animation {
   .box {
-    @apply bg-forest;
+    @apply bg-stone;
     height: 2rem;
     @apply m-2;
   
       span {
-        @apply text-stone;
+        @apply text-charcoal;
         @apply pl-2;
       }
     
