@@ -190,7 +190,8 @@ h3, .h3 {
   display: none;
   position: fixed;
   margin-top: -5vh;
-  @apply bg-white;
+  @apply text-charcoal;
+  @apply bg-stone;
   opacity: 0;
   @apply w-full;
   height: 100vh;
@@ -198,7 +199,7 @@ h3, .h3 {
 
   &.menu-active {
     display: flex;
-    opacity: 85%;
+    opacity: 90%;
     
   }
 }
@@ -418,3 +419,30 @@ h3, .h3 {
   }
 }
 
+// Projects
+
+.project-tile {
+    &:nth-child(1) {
+      .image {
+        @apply bg-sunshine;
+      }
+    }
+    &:nth-child(2) {
+      .image {
+        @apply bg-seafoam;
+      }
+    }
+    &:nth-child(3) {
+      position: relative;
+      top: -14vh;
+      
+      .image {
+        @apply bg-coral;
+      }
+    }
+    &:nth-child(4) {
+      .image {
+        @apply bg-forest;
+      }
+    }
+  }

@@ -4,17 +4,17 @@
       <li class="menu-item">
         <a href="#experience">Education & Experience</a>
       </li>
-      <li class="menu-item">
-        <a href="#work">Work</a>
-      </li>
       <li class="menu-item"> 
         <a href="#skills">Skills & Hobbies</a>
       </li>
       <li class="menu-item">
-        <a href="#contact">Contact</a>
+        <a href="#work">Work</a>
       </li>
       <li class="menu-item">
-      <a class="bg-forest text-stone p-4 w-fit" href="JillResumeOct2019.pdf">Download pdf resume</a>
+        <a href="#contact">Contact</a>
+      </li>
+      <li class="menu-item mt-4">
+        <a class="text-lg bg-forest text-stone p-4 w-fit" href="JillResumeOct2019.pdf">Download pdf resume</a>
       </li>
     </ul>
   </nav>

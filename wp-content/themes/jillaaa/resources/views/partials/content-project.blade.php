@@ -12,13 +12,15 @@ if ($project_loop->have_posts() ):
 
 while ($project_loop->have_posts() ): $project_loop->the_post(); ?>
 
-<a href="{{ get_permalink() }}">
-  <article class="text-stone h-[50vh] bg-cover bg-no-repeat saturate-0 hover:saturate-100" @php(post_class()) style="background-image:url('@thumbnail('full', false)')">
-
-  <div class="entry-summary bg-charcoal bg-opacity-80 py-4 pl-4">
-    <p class="text-white">@title</p>
-    @php(the_excerpt())
-  </div>
+<a href="{{ get_permalink() }}" class="project-tile h-fit">
+  <article>
+    <div class="image h-2/3 w-full flex justify-center">
+      <img src="@thumbnail('full', false)" />
+    </div>
+    <div class="entry-summary py-4 pl-4">
+    <h2 class="text-charcoal text-body">@title</h2>
+      <p class="text-lg">@excerpt</p>
+    </div>
   </article>
 </a>
 <?php endwhile; endif; ?>

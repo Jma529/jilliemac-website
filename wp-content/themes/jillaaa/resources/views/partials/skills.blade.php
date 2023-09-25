@@ -1,4 +1,4 @@
-<section class="lg:grid flex flex-col lg:grid-cols-2 gap-8 bg-forest lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm" id="skills">
+<section class="lg:grid flex flex-col lg:grid-cols-2 gap-8 bg-charcoal lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm" id="skills">
   <div class="lg:col-start-1 lg:col-span-1 text-stone animation">
     <h2 class="font-header mb-8 text-stone">Skills</h2>
     <div class="box lg">

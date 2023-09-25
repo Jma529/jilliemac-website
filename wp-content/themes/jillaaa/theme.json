@@ -1216,6 +1216,11 @@
           "color": "#fcbf49",
           "name": "Sunshine",
           "slug": "sunshine"
+        },
+        {
+          "color": "#ff6f59",
+          "name": "Coral",
+          "slug": "coral"
         }
       ]
     },
