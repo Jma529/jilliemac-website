@@ -47,21 +47,13 @@
       <span>After Coffee</span>
     </div>
   </div>
-  <div class="lg:col-start-2 lg:col-span-1 skill-box text-stone">
-    <h2 class="font-header text-stone">Hobbies</h2>
-    <ul>
-      <li>Yoga</li>
-      <li>Running</li>
-      <li>Surfing</li>
-      <li>Camping</li>
-      <li>Concerts</li>
-      <li>Puzzles</li>
-      <li>Travelling</li>
-      <li>Cycling</li>
-      <li>Teaching</li>
-      <li>Writing</li>
-      <li>Outdoor adventures</li>
-      <li>Dancing</li>
-    </ul>
+  <div class=" relative lg:col-start-2 lg:col-span-1 skill-box text-stone">
+    <h2 class="font-header text-stone mb-28">Fun Facts</h2>
+    <p class="text-seafoam text-2xl font-bold">I used to compete in half pipe and boarder cross for the snowboarding team</p>
+    <p class="text-coral text-2xl font-bold ml-16 py-12"> I had a music blog called Music Gypsy</p>
+    <p class="text-sunshine text-2xl font-bold"> I have a bengal cat named Raven </p>
+    <p class="text-seafoam text-2xl font-bold ml-16 py-12"> I used to have a personal training business </p>
+    <p class="text-coral text-2xl font-bold"> I wordle and crossword daily </p>
+    <p class="text-sunshine text-2xl font-bold  ml-16 py-12"> On the weekends, you can find me camping, surfing, or doing some sort of outdoor adventure</p>
   </div>
 </section>

@@ -250,7 +250,7 @@ h3, .h3 {
       content: '';
       background: black;
       width: 2px;
-      height: 95%;
+      height: 96%;
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
@@ -264,11 +264,9 @@ h3, .h3 {
       display: block;
       width: 30px;
       height: 30px;
-      background: black;
       border-radius: 50%;
       position: absolute;
       left: 50%;
-      margin-top: 25px;
       margin-left: -15px;
     }
   }
@@ -336,16 +334,16 @@ h3, .h3 {
 /* Skills & Hobbies */
 .animation {
   .box {
-    @apply bg-stone;
     height: 2rem;
     @apply m-2;
   
       span {
-        @apply text-charcoal;
+        @apply text-forest;
         @apply pl-2;
       }
     
       &.lg {
+        @apply bg-sunshine;
         width: 40vw;
         -webkit-animation:  widthlarge 5s ease-in 2s infinite alternate;
         animation:  widthlarge 5s ease-in 2s infinite alternate;
@@ -356,6 +354,7 @@ h3, .h3 {
       }
   
       &.md {
+        @apply bg-seafoam;
         width: 30vw;
         -webkit-animation:widthmedium 5s ease-in 2s infinite alternate;
         animation:  widthmedium 5s ease-in 2s infinite alternate;
@@ -366,6 +365,7 @@ h3, .h3 {
       }
   
       &.sm {
+        @apply bg-coral;
         width: 20vw;
         -webkit-animation: widthsmall 5s ease-in 2s infinite alternate;
         animation: widthsmall 5s ease-in 2s infinite alternate;
@@ -435,7 +435,7 @@ h3, .h3 {
     &:nth-child(3) {
       position: relative;
       top: -14vh;
-      
+
       .image {
         @apply bg-coral;
       }
