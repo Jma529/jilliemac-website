@@ -41,14 +41,14 @@
     <div class="box sm">
       <span>PHP</span>
     </div>
-    <div class="flex gap-2 items-center mt-4">
+    <div class="flex gap-2 justify-between lg:justify-start items-center mt-4">
       <span>Before Coffee</span>
       <span class="bg-stone h-0.5 w-[20vw] pl-10"></span>
       <span>After Coffee</span>
     </div>
   </div>
   <div class=" relative lg:col-start-2 lg:col-span-1 skill-box text-stone">
-    <h2 class="font-header text-stone mb-28">Fun Facts</h2>
+    <h2 class="font-header text-stone mb-10">Fun Facts</h2>
     <p class="text-seafoam text-2xl font-bold">I used to compete in half pipe and boarder cross for the snowboarding team</p>
     <p class="text-coral text-2xl font-bold ml-16 py-12"> I had a music blog called Music Gypsy</p>
     <p class="text-sunshine text-2xl font-bold"> I have a bengal cat named Raven </p>

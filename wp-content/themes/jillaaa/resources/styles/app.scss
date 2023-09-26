@@ -336,6 +336,10 @@ h3, .h3 {
   .box {
     height: 2rem;
     @apply m-2;
+
+    &:nth-child(1) {
+      @apply mt-0;
+    }
   
       span {
         @apply text-forest;
@@ -344,7 +348,7 @@ h3, .h3 {
     
       &.lg {
         @apply bg-sunshine;
-        width: 40vw;
+        width: 80vw;
         -webkit-animation:  widthlarge 5s ease-in 2s infinite alternate;
         animation:  widthlarge 5s ease-in 2s infinite alternate;
   
@@ -355,7 +359,7 @@ h3, .h3 {
   
       &.md {
         @apply bg-seafoam;
-        width: 30vw;
+        width: 70vw;
         -webkit-animation:widthmedium 5s ease-in 2s infinite alternate;
         animation:  widthmedium 5s ease-in 2s infinite alternate;
   
@@ -366,7 +370,7 @@ h3, .h3 {
   
       &.sm {
         @apply bg-coral;
-        width: 20vw;
+        width: 60vw;
         -webkit-animation: widthsmall 5s ease-in 2s infinite alternate;
         animation: widthsmall 5s ease-in 2s infinite alternate;
   
@@ -385,8 +389,15 @@ h3, .h3 {
 }
 
 @keyframes widthlarge {
-  from {width: 30vw;}
+  from {width: 80vw;}
   to {width: 100px;}
+}
+
+@media(min-width: theme('screens.lg')) {
+  @keyframes widthlarge {
+    from {width: 30vw;}
+    to {width: 100px;}
+  }
 }
 
 @-webkit-keyframes widthmedium {
@@ -395,8 +406,15 @@ h3, .h3 {
 }
 
 @keyframes widthmedium {
-  from {width: 25vw;}
+  from {width: 70vw;}
   to {width: 100px;}
+}
+
+@media(min-width: theme('screens.lg')) {
+  @keyframes widthmedium {
+    from {width: 25vw;}
+    to {width: 100px;}
+  }
 }
 
 @-webkit-keyframes widthsmall {
@@ -405,8 +423,15 @@ h3, .h3 {
 }
 
 @keyframes widthsmall {
-  from{width:20vw;}
+  from{width:60vw;}
   to{width: 100px;}
+}
+
+@media(min-width: theme('screens.lg')) {
+  @keyframes widthsmall {
+    from{width:20vw;}
+    to{width: 100px;}
+  }
 }
 
 .skill-box {
