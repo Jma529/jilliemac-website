@@ -458,9 +458,11 @@ h3, .h3 {
       }
     }
     &:nth-child(3) {
-      position: relative;
-      top: -14vh;
-
+      @media(min-width: theme('screens.lg')) {
+        position: relative;
+        top: -14vh;
+      }
+  
       .image {
         @apply bg-coral;
       }
@@ -471,3 +473,69 @@ h3, .h3 {
       }
     }
   }
+
+  // Contact Animation
+
+  .path {
+    fill: transparent;
+}
+
+  .cls-4 {
+    stroke: #fcbf49;
+    animation: rainbowfirst 1s linear;
+    animation-fill-mode: forwards;
+  }
+
+  .cls-3 {
+    stroke: #ff6f59;
+    animation: rainbowsecond 1s linear;
+    animation-fill-mode: forwards;
+
+  }
+
+  .cls-2 {
+    stroke: #9dd0cb;
+    animation: rainbowthird 1s linear;
+    animation-fill-mode: forwards;
+  }
+
+  .cls-1 {
+    stroke: #1a3e45;
+    animation: rainbowfourth 1s linear;
+    animation-fill-mode: forwards;
+
+  }
+
+  @keyframes rainbowfirst {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes rainbowsecond {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes rainbowthird {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes rainbowfourth {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  // .cls-1, .cls-2, .cls-3, .cls-4 {
+  //   stroke-width: 0px;
+  // }
+
+
+ 
+
+
+

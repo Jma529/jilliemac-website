@@ -56,3 +56,14 @@ window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
 // reveal();
+
+// Rainbow animation 
+
+function rainbow () {
+  Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
+    pathElement.setAttribute('style', 'stroke-dasharray:'+pathElement.getTotalLength()+';stroke-dashoffset:'+pathElement.getTotalLength())
+  })
+}
+
+window.addEventListener("scroll", rainbow);
+ 
