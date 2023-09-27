@@ -49,12 +49,12 @@
     <a class="bg-forest text-stone p-4 w-fit" href="JillResumeOct2019.pdf">Download pdf resume</a>
     </div>
   </div>
-  <div class="col-start-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.52 8.9">
-    <path class="path cls-3" d="m.5,8.05c0-1.97.85-3.65,2.09-5.12S6.15.5,8.02.5"/>
-    <path class="path cls-2" d="m2.66,8.34c.21-1.88.24-2.38,1.59-3.85s3.36-1.54,3.65-1.61"/>
-    <path class="path cls-4" d="m4.65,8.39c0-2.09,1.42-3.18,3.17-3.52"/>
-    <path class="path cls-1" d="m6.7,8.4c0-.93.42-1.3,1.26-1.51"/>
+  <div class="col-start-2 rainbow-animate">
+<svg class="rainbow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.17 8.4">
+    <path class="path cls-3" d="m.5,8.4c0-1.97.85-4,2.09-5.48S6.3.5,8.17.5"/>
+    <path class="path cls-2" d="m2.66,8.4c0-1.89.24-2.44,1.59-3.91s3.46-1.61,3.92-1.61"/>
+    <path class="path cls-4" d="m4.65,8.4c0-2.09,1.69-3.54,3.52-3.54"/>
+    <path class="path cls-1" d="m6.7,8.4c0-.93.59-1.51,1.48-1.51"/>
 </svg>
   </div>
 

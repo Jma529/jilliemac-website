@@ -1,4 +1,5 @@
 import domReady from '@roots/sage/client/dom-ready';
+import ScrollReveal from 'scrollreveal';
 
 /**
  * Application entrypoint
@@ -59,11 +60,43 @@ window.addEventListener("scroll", reveal);
 
 // Rainbow animation 
 
-function rainbow () {
-  Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
-    pathElement.setAttribute('style', 'stroke-dasharray:'+pathElement.getTotalLength()+';stroke-dashoffset:'+pathElement.getTotalLength())
-  })
+function rainbowAnimate() {
+  var section = document.getElementById("contact");
+  for (var i = 0; i < section.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = section[i].getBoundingClientRect().top;
+    var elementVisible = 100;
+    if (elementTop < windowHeight - elementVisible) {
+      Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
+        pathElement.setAttribute('style', 'stroke-dasharray:'+pathElement.getTotalLength()+';stroke-dashoffset:'+pathElement.getTotalLength())
+      })
+    } 
+  }
+}
+let container = document.querySelector('#contact');
+
+function isScrolledIntoView(elem) {
+  var rect = elem.getBoundingClientRect();
+  var elemTop = rect.top;
+  var elemBottom = rect.bottom;
+
+  var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+  
+  return isVisible;
 }
 
-window.addEventListener("scroll", rainbow);
- 
+window.addEventListener("scroll", function() {
+  if (isScrolledIntoView(container)) {
+    Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
+      pathElement.setAttribute('style', 'stroke-dasharray:'+pathElement.getTotalLength()+';stroke-dashoffset:'+pathElement.getTotalLength())
+    })
+  }
+});
+
+// function rainbowAnimate () {
+//   Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
+//     pathElement.setAttribute('style', 'stroke-dasharray:'+pathElement.getTotalLength()+';stroke-dashoffset:'+pathElement.getTotalLength())
+//   })
+// }
+
+// window.addEventListener("scroll", rainbowAnimate);
