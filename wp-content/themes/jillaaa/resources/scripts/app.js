@@ -1,5 +1,5 @@
 import domReady from '@roots/sage/client/dom-ready';
-import ScrollReveal from 'scrollreveal';
+
 
 /**
  * Application entrypoint
@@ -53,6 +53,7 @@ function reveal() {
   }
 }
 
+
 window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
@@ -61,37 +62,41 @@ window.addEventListener("scroll", reveal);
 // Rainbow animation 
 
 function rainbowAnimate() {
-  var section = document.getElementById("contact");
-  for (var i = 0; i < section.length; i++) {
+  var revealSvg = document.querySelectorAll("svg path");
+  for (var i = 0; i < revealSvg.length; i++) {
     var windowHeight = window.innerHeight;
-    var elementTop = section[i].getBoundingClientRect().top;
-    var elementVisible = 100;
-    if (elementTop < windowHeight - elementVisible) {
-      Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
-        pathElement.setAttribute('style', 'stroke-dasharray:'+pathElement.getTotalLength()+';stroke-dashoffset:'+pathElement.getTotalLength())
-      })
+    var elementTopTwo = revealSvg[i].getBoundingClientRect().top;
+    var elementVisibleTwo = 100;
+    if (elementTopTwo < windowHeight - elementVisibleTwo) {
+      revealSvg[i].classList.add("reveal");
+    } else {
+      revealSvg[i].classList.remove("reveal");
     } 
   }
 }
-let container = document.querySelector('#contact');
 
-function isScrolledIntoView(elem) {
-  var rect = elem.getBoundingClientRect();
-  var elemTop = rect.top;
-  var elemBottom = rect.bottom;
+window.addEventListener("scroll", rainbowAnimate);
+// let container = document.querySelector('#contact');
 
-  var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+// function isScrolledIntoView(elem) {
+//   var rect = elem.getBoundingClientRect();
+//   var elemTop = rect.top;
+//   var elemBottom = rect.bottom;
+
+//   var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
   
-  return isVisible;
-}
+//   return isVisible;
+// }
 
-window.addEventListener("scroll", function() {
-  if (isScrolledIntoView(container)) {
-    Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
-      pathElement.setAttribute('style', 'stroke-dasharray:'+pathElement.getTotalLength()+';stroke-dashoffset:'+pathElement.getTotalLength())
-    })
-  }
-});
+var path = document.querySelector('.pathfour');
+var length = path.getTotalLength();
+
+console.log(length);
+
+//    
+//     })
+//   }
+// });
 
 // function rainbowAnimate () {
 //   Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
