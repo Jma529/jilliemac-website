@@ -76,32 +76,3 @@ function rainbowAnimate() {
 }
 
 window.addEventListener("scroll", rainbowAnimate);
-// let container = document.querySelector('#contact');
-
-// function isScrolledIntoView(elem) {
-//   var rect = elem.getBoundingClientRect();
-//   var elemTop = rect.top;
-//   var elemBottom = rect.bottom;
-
-//   var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-  
-//   return isVisible;
-// }
-
-var path = document.querySelector('.pathfour');
-var length = path.getTotalLength();
-
-console.log(length);
-
-//    
-//     })
-//   }
-// });
-
-// function rainbowAnimate () {
-//   Array.from(document.getElementsByClassName("path")).forEach(pathElement => {
-//     pathElement.setAttribute('style', 'stroke-dasharray:'+pathElement.getTotalLength()+';stroke-dashoffset:'+pathElement.getTotalLength())
-//   })
-// }
-
-// window.addEventListener("scroll", rainbowAnimate);

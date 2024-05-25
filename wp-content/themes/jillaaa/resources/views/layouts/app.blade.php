@@ -2,6 +2,7 @@
   {{ __('Skip to content') }}
 </a>
 
+
 @include('sections.header')
 
   <main id="main" class="main">
