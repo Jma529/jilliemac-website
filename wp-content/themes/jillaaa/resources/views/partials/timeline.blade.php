@@ -1,7 +1,25 @@
 <section class="lg:px-wrapper-lg px-wrapper-sm lg:py-section-y-lg py-section-y-sm bg-stone" id="experience">
   <h2 class="mb-8 font-header">Education & Experience</h2>
   <div class="timeline relative flex flex-col lg:grid lg:grid-cols-2 grid-flow-row w-full gap-12">
-    <div class="timeline-item flex flex-col col-start-1 col-span-2">
+  <div class="timeline-item flex flex-col col-start-1 col-span-2">
+      <div class="timeline-img bg-sunshine"></div>
+        <div class="timeline-content flex flex-col gap-4">
+          <div class="slide-in right lg:max-w-[35vw]">
+                <div class="flex flex-col gap-2 mb-4">
+                  <h3>Full-stack Web Developer</h3>
+                  <p class="text-lg leading-none">Full-time | Brisbane, QLD</p>
+                  <p class="italic font-medium">Nov 2023 - present</p>
+                </div>
+                <ul class="list-disc">
+                <li>Work closely with developers, designers, project managers, and digital marketers to build responsive and intuitive sites built with WordPress and Shopify adhering to deadlines.</li>            
+                <li>Create developer guides and futureproof code</li>
+                <li>Follow task directions and correctly log time and comments
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="timeline-item flex flex-col col-start-2 col-span-2">
       <div class="timeline-img bg-sunshine"></div>
       <div class="timeline-content flex flex-col gap-4">
         <!-- <div class="icon">
@@ -15,9 +33,10 @@
           <div class="flex flex-col gap-2 mb-4">
             <h3>White-label Web Developer</h3>
             <p class="text-lg leading-none">Contract | Remote</p>
-            <p class="italic font-medium">March 2023 - present</p>
+            <p class="italic font-medium">March 2023 - Nov 2023</p>
           </div>
           <ul class="list-disc">
+            
             <li>Assist digital agency with quick turn-around (less than 30 days) WordPress custom theme builds using php, Laravel, blade, tailwindCSS, SCSS, JavaScript, yarn, and git version control</li>
             <li>Demonstrate pixel awareness by ensuring site exactly matches the Figma designs</li>
             <li>Adhere to project timelines and budgets by efficiently handling tasks and asking for help when needed
@@ -26,7 +45,7 @@
         </div>
       </div>
     </div>
-    <div class="timeline-item flex flex-col col-start-2 col-span-2">
+    <div class="timeline-item flex flex-col col-start-1 col-span-2">
       <div class="timeline-img bg-seafoam"></div>
       <div class="timeline-content flex flex-col gap-4">
         <!-- <div class="icon">
@@ -52,7 +71,7 @@
         </div>
       </div>
     </div>
-    <div class="timeline-item flex flex-col col-start-1 col-span-2">
+    <div class="timeline-item flex flex-col col-start-2 col-span-2">
       <div class="timeline-img bg-coral"></div>
       <div class="timeline-content flex flex-col gap-4">
         <!-- <div class="icon">
@@ -79,7 +98,7 @@
         </div>
       </div>
     </div>
-      <div class="timeline-item flex flex-col col-start-2 col-span-2">
+      <div class="timeline-item flex flex-col col-start-1 col-span-2">
         <div class="timeline-img bg-forest"></div>
         <div class="timeline-content flex flex-col gap-4">
           <!-- <div class="icon">
@@ -113,7 +132,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item flex flex-col col-start-1 col-span-2">
+      <div class="timeline-item flex flex-col col-start-2 col-span-2">
       <div class="timeline-img bg-sunshine"></div>
       <div class="timeline-content flex flex-col gap-4">
         <!-- <div class="icon">
@@ -139,7 +158,7 @@
         </div>
       </div>
     </div>
-    <div class="timeline-item flex flex-col col-start-2 col-span-2">
+    <div class="timeline-item flex flex-col col-start-1 col-span-2">
       <div class="timeline-img bg-seafoam"></div>
       <div class="timeline-content flex flex-col gap-4">
         <!-- <div class="icon">
@@ -163,7 +182,7 @@
         </div>
       </div>
     </div>
-    <div class="timeline-item flex flex-col col-start-1 col-span-2">
+    <div class="timeline-item flex flex-col col-start-2 col-span-2">
       <div class="timeline-img bg-coral"></div>
       <div class="timeline-content flex flex-col gap-4">
         <!-- <div class="icon">
@@ -191,7 +210,7 @@
         </div>
       </div>
     </div>
-    <div class="timeline-item flex flex-col col-start-2 col-span-2">
+    <div class="timeline-item flex flex-col col-start-1 col-span-2">
       <div class="timeline-img bg-forest"></div>
       <div class="timeline-content flex flex-col gap-4">
         <!-- <div class="icon">
