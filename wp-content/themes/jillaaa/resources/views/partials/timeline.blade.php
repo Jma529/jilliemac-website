@@ -2,7 +2,7 @@
   <h2 class="mb-8 font-header">Education & Experience</h2>
   <div class="timeline relative flex flex-col lg:grid lg:grid-cols-2 grid-flow-row w-full gap-12">
   <div class="timeline-item flex flex-col col-start-1 col-span-2">
-      <div class="timeline-img bg-sunshine"></div>
+      <div class="timeline-img bg-forest"></div>
         <div class="timeline-content flex flex-col gap-4">
           <div class="slide-in right lg:max-w-[35vw]">
                 <div class="flex flex-col gap-2 mb-4">
